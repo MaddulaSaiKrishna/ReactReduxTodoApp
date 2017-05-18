@@ -1,0 +1,52 @@
+.block{
+      display:block;
+      margin:10px 0px;
+    }
+    input[type="text"] , input[type="password"]{
+      padding:5px;
+    }
+    .hide{
+      display:none;
+    }
+    .ml25{
+      margin-left:25px;
+    }
+    .ml10{
+      margin-left:10px;
+    }
+    .errorText{
+      color:red;
+      font-style:italic;
+    }
+    .errColor{
+      color:red;
+    }
+    .customBtn{
+      padding: 5px;
+      margin-left: 15px;
+    }
+    .strikeoff{
+      text-decoration:line-through;
+    }
+    .todoLi{
+      font-size: 30px;
+      list-style: none;
+      font-family: monospace;
+      border-bottom:1px solid #ddd;
+    }
+    .todoApp ul {
+      padding-left:0px;
+    }
+    .todoApp{
+      width:300px;
+      border: 1px solid #ddd;
+      padding: 15px;
+    }
+    .todoText{
+
+    }
+    .delete{
+      float: right;
+      margin-right: 5px;
+      cursor:pointer;
+    }
