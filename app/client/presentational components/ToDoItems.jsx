@@ -2,10 +2,6 @@ import React from 'react';
 export default class ToDoItems extends React.Component{
   constructor(props){
     super(props);
-    this.liClick = this.liClick.bind(this);
-  }
-  liClick(id){
-    this.props.toggleTodo(id);
   }
   render(){
     var liItems;
