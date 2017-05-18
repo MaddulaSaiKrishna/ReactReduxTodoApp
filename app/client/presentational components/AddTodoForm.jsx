@@ -5,7 +5,6 @@ export default class AddTodoForm extends React.Component{
     this.state ={addTodoVal:''};
     this.addToTextchanged = this.addToTextchanged.bind(this);
     this.addBtnHandler = this.addBtnHandler.bind(this);
-    console.log(this.props);
   }
   addToTextchanged(e){
     this.setState({
